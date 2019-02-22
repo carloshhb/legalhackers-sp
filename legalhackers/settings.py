@@ -132,5 +132,14 @@ AWS_STATIC_LOCATION = 'static'
 AWS_S3_ENCRYPTION = True
 AWS_DEFAULT_ACL = None
 
-STATICFILES_STORAGE = 'jurisintel.storage_backends.StaticStorage'
+STATICFILES_STORAGE = 'legalhackers.storage_backends.StaticStorage'
 STATIC_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, AWS_STATIC_LOCATION)
+
+AWS_PUBLIC_MEDIA_LOCATION = 'documents/public'
+DEFAULT_FILE_STORAGE = 'jurisintel.storage_backends.PublicMediaStorage'
+
+AWS_PRIVATE_MEDIA_LOCATION = 'documents/private'
+PRIVATE_FILE_STORAGE = 'jurisintel.storage_backends.PrivateMediaStorage'
+
+MEDIA_URL = "https://%s/%s/" % (AWS_S3_CUSTOM_DOMAIN, AWS_PUBLIC_MEDIA_LOCATION)
+TMP_MEDIA = os.path.join(BASE_DIR, 'media')
