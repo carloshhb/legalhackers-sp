@@ -87,7 +87,12 @@
         .d-flex{
             display: flex;
             flex: 1;
+            flex-direction: row;
+        }
+        @media(max-width: 768px){
+            .d-flex{
             flex-direction: column;
+        }
         }
     </style>
 </head>
