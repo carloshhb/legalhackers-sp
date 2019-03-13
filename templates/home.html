@@ -88,11 +88,16 @@
             display: flex;
             flex: 1;
             flex-direction: row;
+            flex-wrap: wrap;
         }
         @media(max-width: 768px){
+            .partner-logo{
+                margin: 2em 0 0 0;
+            }
             .d-flex{
-            flex-direction: column;
-        }
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
         }
     </style>
 </head>
@@ -648,6 +653,11 @@
                                 <div class="partner-logo">
                                     <a href="https://looplex.com.br/">
                                         <img src="{% static 'img/partners/Looplex-horizontal-vetor.png' %}" alt="Logo Looplex" target="_blank">
+                                    </a>
+                                </div>
+                                <div class="partner-logo">
+                                    <a href="http://hi-law.com.br/">
+                                        <img src="{% static 'img/partners/HiLaw_Logo_Cinza.png.png' %}" alt="Logo Hi Law" target="_blank">
                                     </a>
                                 </div>
                             </div>
