@@ -1,0 +1,477 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-14 16:04-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\templates\home.html:123
+msgid "april 12–14, 2019, São Paulo"
+msgstr "12-14 de Abril, São Paulo"
+
+#: .\templates\home.html:125
+msgid "1st LATAM Legal Hackers Summit"
+msgstr "1º LATAM Legal Hackers Summit"
+
+#: .\templates\home.html:132
+msgid "Learn more"
+msgstr "Saiba mais"
+
+#: .\templates\home.html:141
+msgid "Buy ticket"
+msgstr "Inscrições"
+
+#: .\templates\home.html:174
+msgid "Welcome to the 2019 LATAM Legal Hackers Summit!"
+msgstr "Bem vindo ao LATAM Legal Hackers Summit 2019"
+
+#: .\templates\home.html:176
+msgid ""
+"Since its founding in 2012, the <a href=\"https://www.legalhackers.org"
+"\">Legal Hackers</a>"
+msgstr ""
+"Desde sua fundação em 2012, o movimento <a href=\"https://www.legalhackers."
+"org\">Legal Hackers</a>"
+
+#: .\templates\home.html:177
+msgid ""
+"movement has grown into the largest grassroots legal innovation community in "
+"the world."
+msgstr "cresceu como a maior comunidade de inovação jurídica do mundo."
+
+#: .\templates\home.html:179
+msgid "São Paulo Legal Hackers"
+msgstr "O São Paulo Legal Hackers"
+
+#: .\templates\home.html:180
+msgid ""
+"are hosting the first edition of the LATAM Legal Hackers Summit, that will "
+"convene chapter organizers and legal innovation thought leaders to share "
+"experiences and knowledge and to chart the path ahead for the Legal Hackers "
+"movement."
+msgstr "recebe a primeira edição do LATAM Legal Hackers Summit, que irá promover o encontro de organizadores de outros capítulos e diversos players da inovação jurídica para compartilhar experiências e conhecimento, e pensar os próximos passos do movimento "
+
+#: .\templates\home.html:182
+msgid ""
+"Our team is thrilled to be hosting the Summit. Can't wait to see you there!"
+msgstr "O nosso time está encantado em poder receber todos vocês no Summit. Mal podemos esperar para lhe ver por aqui!"
+
+#: .\templates\home.html:210
+msgid "What"
+msgstr "O que é"
+
+#: .\templates\home.html:211
+msgid ""
+"Full open day summit conference with workshops, keynote speakers, panel "
+"discussions and huge networking; and an invitation-only organizers retreat."
+msgstr "Um dia completo com workshops, apresentações relevantes, painéis de discussão e muito networking; e um dia reservado aos organizadores de capítulos do Legal Hackers (apenas por convite)"
+
+#: .\templates\home.html:222
+msgid "When"
+msgstr "Quando"
+
+#: .\templates\home.html:223
+msgid "April 12, 13 and 14"
+msgstr "12, 13 e 14 de abril"
+
+#: .\templates\home.html:232
+msgid "Where"
+msgstr "Onde"
+
+#: .\templates\home.html:233
+msgid ""
+"We will be hosting you in São Paulo. Wait a little bit more to discover our "
+"venue."
+msgstr "Iremos lhe receber em São Paulo"
+
+#: .\templates\home.html:264
+msgid "April 12"
+msgstr "12 de abril"
+
+#: .\templates\home.html:264
+msgid "Organizer's closed day."
+msgstr "Organizers retreat"
+
+#: .\templates\home.html:264
+msgid "Exclusive to chapter organizers"
+msgstr "Exclusivo aos organizadores de capítulos"
+
+#: .\templates\home.html:264
+msgid ""
+"We will feature keynote speakers, workshops, pannel discussions and some "
+"community building activities. Wait for more details!"
+msgstr "Teremos grandes apresentadores, workshops, painéis de discussão e atividades de construção de comunidade."
+
+#: .\templates\home.html:266 .\templates\home.html:282
+#: .\templates\home.html:371 .\templates\home.html:401
+#: .\templates\home.html:503
+msgid "Location:"
+msgstr "Local"
+
+#: .\templates\home.html:268 .\templates\home.html:373
+#: .\templates\home.html:505
+msgid "Close to Faria Lima subway"
+msgstr "Próximo ao Metrô Faria Lima"
+
+#: .\templates\home.html:280
+msgid "April 13"
+msgstr "13 de abril"
+
+#: .\templates\home.html:280
+msgid "Open Innovation Day."
+msgstr "Open Innovation Day"
+
+#: .\templates\home.html:280
+msgid "Open to the community"
+msgstr "Aberto à comunidade"
+
+#: .\templates\home.html:280
+msgid "Workshops, pannel discussions and a lot of networking."
+msgstr "Grandes nomes do ecossistema nacional e internacional, Workshops, painéis de discussão a muito networking"
+
+#: .\templates\home.html:285 .\templates\home.html:404
+msgid "Close to Consolação subway"
+msgstr "Próximo ao Metrô Consolação"
+
+#: .\templates\home.html:298
+msgid "April 14"
+msgstr "14 de abril"
+
+#: .\templates\home.html:298
+msgid "A really fun day with our friends in São Paulo!"
+msgstr "Um dia de diversão com nossos amigos em São Paulo"
+
+#: .\templates\home.html:325
+msgid "SPEAKERS"
+msgstr "Apresentadores e Palestrantes"
+
+#: .\templates\home.html:328
+msgid ""
+"The weekend will include a fascinating array of keynotes, workshops, and "
+"social interaction. Wait a little bit more to find out about our speakers:"
+msgstr "O final de semana estará repleto de pessoas fascinantes. Aguarde mais confirmações."
+
+#: .\templates\home.html:342
+msgid "Legal Hackers Organizer's Retreat"
+msgstr "Legal Hackers Organizer's Retreat"
+
+#: .\templates\home.html:344
+msgid "Exclusive to Legal Hackers Organizers"
+msgstr "Exclusivo aos organizadores de capítulos"
+
+#: .\templates\home.html:352
+msgid "Thursday, April 11"
+msgstr "Quinta, 11 de abril"
+
+#: .\templates\home.html:355
+msgid "Legal Hackers welcome dinner:"
+msgstr "Jantar de boas vindas"
+
+#: .\templates\home.html:358
+msgid "7:00 PM - Location TBA."
+msgstr "19:00 - Local à confirmar"
+
+#: .\templates\home.html:365
+msgid "Friday, April 12"
+msgstr "Sexta, 12 de abril"
+
+#: .\templates\home.html:368
+msgid "Organizers retreat:"
+msgstr "Organizers retreat:"
+
+#: .\templates\home.html:368
+msgid "Exclusive to Legal Hackers Organizers."
+msgstr "Exclusivo aos organizadores de capítulos"
+
+#: .\templates\home.html:368 .\templates\home.html:500
+msgid "(To be confirmed. <b>Subject of changes</b>)"
+msgstr "(To be confirmed. <b>Subject of changes</b>)"
+
+#: .\templates\home.html:377 .\templates\home.html:408
+msgid "9:00 AM - Breakfast and Coffee"
+msgstr "9:00 AM - Breakfast and Coffee"
+
+#: .\templates\home.html:378 .\templates\home.html:409
+msgid "9:45 AM - Welcoming Remarks, with Legal Hackers Team"
+msgstr "9:45 AM - Welcoming Remarks, with Legal Hackers Team"
+
+#: .\templates\home.html:379
+msgid "10:00 AM - Morning Keynote: The Ethos of Legal Hackers"
+msgstr "10:00 AM - Morning Keynote: The Ethos of Legal Hackers"
+
+#: .\templates\home.html:380
+msgid "10:30 AM - Morning Lightning Talks"
+msgstr "10:30 AM - Morning Lightning Talks"
+
+#: .\templates\home.html:381
+msgid "11:30 AM - How to build your community"
+msgstr "11:30 AM - How to build your community"
+
+#: .\templates\home.html:382 .\templates\home.html:413
+msgid "12:30 PM - Lunch"
+msgstr "12:30 PM - Lunch"
+
+#: .\templates\home.html:383
+msgid "2:00 PM - Afternoon Keynote"
+msgstr "2:00 PM - Afternoon Keynote"
+
+#: .\templates\home.html:384
+msgid "2:30 PM - Early afternoon workshops"
+msgstr "2:30 PM - Early afternoon workshops"
+
+#: .\templates\home.html:385 .\templates\home.html:416
+msgid "3:30 PM - Coffee-break"
+msgstr "3:30 PM - Coffee-break"
+
+#: .\templates\home.html:386
+msgid "3:45 PM - Closing Keynote"
+msgstr "3:45 PM - Closing Keynote"
+
+#: .\templates\home.html:387
+msgid "4:30 PM - End of Day Photo"
+msgstr "4:30 PM - End of Day Photo"
+
+#: .\templates\home.html:388
+msgid "7:00 PM - Organizers &amp; Speakers Dinner (Location TBA)"
+msgstr "7:00 PM - Organizers &amp; Speakers Dinner (Location TBA)"
+
+#: .\templates\home.html:395 .\templates\home.html:497
+msgid "Saturday, April 13"
+msgstr "Sábado, 13 de abril"
+
+#: .\templates\home.html:398 .\templates\home.html:500
+msgid "Open Innovation Day:"
+msgstr "Open Innovation Day:"
+
+#: .\templates\home.html:398 .\templates\home.html:500
+msgid "Open to the public"
+msgstr "Aberto ao público"
+
+#: .\templates\home.html:398
+msgid "(To be confirmed. Subject of changes)"
+msgstr "Sujeito à alterações"
+
+#: .\templates\home.html:410
+msgid ""
+"10:00 AM - Morning Keynote: Reflections on the global Legal Hackers movement"
+msgstr "10:00 - Keynote inicial: Reflexões sobre o movimento global Legal Hackers"
+
+#: .\templates\home.html:411
+msgid "10:30 AM - Legal Education in the Era of Legal Tech"
+msgstr "10:30 - Educação jurídica na Era Legal Tech"
+
+#: .\templates\home.html:412
+msgid "11:30 AM - Legal Practice in the Era of Legal Tech."
+msgstr "11:30 - Prática jurídica na Era Legal Tech"
+
+#: .\templates\home.html:414
+msgid "2:00 PM - Early afternoon Workshop"
+msgstr "14:00 - Workshops de início de tarde"
+
+#: .\templates\home.html:415
+msgid "2:45 PM - Legal A.I."
+msgstr "14:45 - Inteligência Artificial jurídica"
+
+#: .\templates\home.html:417
+msgid "3:45 PM - Blockchain Law &amp; Policy"
+msgstr "15:45 - Blockchain Law and Policy"
+
+#: .\templates\home.html:418
+msgid "4:45 PM - Legal Design workshop and Ideathon"
+msgstr "16:45 - Workshop de Legal Design e Ideação"
+
+#: .\templates\home.html:419 .\templates\home.html:520
+msgid "5:45 PM - Coffee-break"
+msgstr "17:45 - Coffee-break"
+
+#: .\templates\home.html:420 .\templates\home.html:521
+msgid "6:00 PM - Ideathon Elevator Pitch and Discussion"
+msgstr "18:00 - Ideathon Elevator Pitch e discussões"
+
+#: .\templates\home.html:421 .\templates\home.html:522
+msgid "7:00 PM - Happy Hour (Location TBA)"
+msgstr "19:00 - Happy Hour (Local TBA)"
+
+#: .\templates\home.html:428
+msgid "Sunday, April 14"
+msgstr "Domingo, 14 de abril"
+
+#: .\templates\home.html:431
+msgid "Fun day! Wait for more details..."
+msgstr "Dia de diversão! Aguarde mais detalhes..."
+
+#: .\templates\home.html:448
+msgid ""
+"Legal Hackers chapter organizer</span>? <br><strong>Stay tuned and we'll "
+"anounce shortly how to make your subscription ...</strong></strong>"
+msgstr "Legal Hackers chapter organizer</span>? <br><strong>Stay tuned and we'll "
+"anounce shortly how to make your subscription ...</strong></strong>"
+
+#: .\templates\home.html:456
+msgid "Wait for the registration form"
+msgstr "Wait for the registration form"
+
+#: .\templates\home.html:509
+msgid " 9:00 AM - Breakfast and Coffee"
+msgstr "9:00 - Café de recepção"
+
+#: .\templates\home.html:510
+msgid " 9:45 AM - Welcoming Remarks, with Legal Hackers Team"
+msgstr "9:45 - Considerações iniciais, com o time do Legal Hackers"
+
+#: .\templates\home.html:511
+msgid ""
+" 10:00 AM - Morning Keynote: Reflections on the global Legal Hackers movement"
+msgstr "10:00 - Keynote inicial: Reflexões sobre o movimento global Legal Hackers"
+
+#: .\templates\home.html:512
+msgid " 10:30 AM - Legal Education in the Era of Legal Tech"
+msgstr "10:30 - Educação jurídica na Era Legal Tech"
+
+#: .\templates\home.html:513
+msgid " 11:30 AM - Legal Practice in the Era of Legal Tech."
+msgstr "11:30 - Prática jurídica na Era Legal Tech"
+
+#: .\templates\home.html:514
+msgid " 12:30 PM - Lunch"
+msgstr "12:30 - Almoço"
+
+#: .\templates\home.html:515
+msgid " 2:00 PM - Early afternoon Workshop"
+msgstr "14:00 - Workshops de início de tarde"
+
+#: .\templates\home.html:516
+msgid " 2:45 PM - Legal A.I."
+msgstr "14:45 - Inteligência Artificial jurídica"
+
+#: .\templates\home.html:517
+msgid " 3:30 PM - Coffee-break"
+msgstr "15:30 - Coffee-break"
+
+#: .\templates\home.html:518
+msgid " 3:45 PM - Blockchain Law &amp; Policy"
+msgstr "15:45 - Blockchain Law and Policy"
+
+#: .\templates\home.html:519
+msgid " 4:45 PM - Legal Design workshop and Ideathon"
+msgstr "16:45 - Workshop de Legal Design e Ideação"
+
+#: .\templates\home.html:542
+msgid ""
+"<strong>Interested on our Open Innovation Day? <br>Stay tuned and we'll "
+"anounce shortly how to make your subscription ...</strong><strong></strong>"
+msgstr "<strong>Interessado no Open Innovation Day? <br>Fiquem atentos que iremos divulgar como fazer sua inscrição...</strong><strong></strong>"
+
+#: .\templates\home.html:550
+msgid "Wait for more details on registration"
+msgstr "Aguarde por mais detalhes"
+
+#: .\templates\home.html:584
+msgid "Important notes"
+msgstr "Notas importantes"
+
+#: .\templates\home.html:597
+msgid "Attire"
+msgstr "Trajes"
+
+#: .\templates\home.html:599
+msgid "Summit attire is smart casual/jeans etc."
+msgstr "O Summit será bem informal e queremos que você fique à vontade"
+
+#: .\templates\home.html:611
+msgid "Hotels and Hostels"
+msgstr "Hotéis e Hostels"
+
+#: .\templates\home.html:614
+msgid ""
+"We recommend staying near downtown (around Paulista Avenue) or near the "
+"event (around Faria Lima Avenue/Vila Olimpia). Check some options"
+msgstr "Recomendamos ficar na região da avenida paulista ou proximidades. Veja algumas opções"
+
+#: .\templates\home.html:615
+msgid "here."
+msgstr "aqui."
+
+#: .\templates\home.html:627
+msgid "Weather"
+msgstr "Clima"
+
+#: .\templates\home.html:628
+msgid "Sao Paulo in April is hot and humid (hottest days and cooler nights)."
+msgstr "Em abril São Paulo ainda estará com um clima quente e úmido"
+
+#: .\templates\home.html:637
+msgid "Getting around"
+msgstr "Locomoção"
+
+#: .\templates\home.html:638
+msgid ""
+"Taxis, Ubers, 99Taxis, Cabify etc. are plentiful, but the subway/bus is "
+"always cheaper (R$ 4,30). Check the status of the subway operation here."
+msgstr "Taxis, Ubers, 99, Cabify, etc. são bem disponíveis, mas o metrô será a melhor opção para os locais, e forma mais barata de se locomover."
+
+#: .\templates\home.html:650
+msgid "Voltage and Sockets"
+msgstr "Energia"
+
+#: .\templates\home.html:652
+msgid ""
+"In Sao Paulo the voltage is 110 V and the power plugs and sockets are of "
+"type 'N'. We recommend that you bring a universal plug adapter."
+msgstr "Em São Paulo a voltagem é 110V e as tomadas são do tipo N. Recomendamos trazer adaptador universal"
+
+#: .\templates\home.html:664
+msgid "The Summit will have wi-fi. Let us know if you need options for SIMs."
+msgstr "O Summit terá acesso à internet."
+
+#: .\templates\home.html:676
+msgid "PARTNERS"
+msgstr "Parceiros"
+
+#: .\templates\home.html:677
+msgid ""
+"If you are interested in becoming a partner or sponsor, please feel free to "
+"write us."
+msgstr "Está interessado em apoiar? Entra em contato com a gente!"
+
+#: .\templates\home.html:707
+msgid "THE VENUE"
+msgstr "Onde irá acontecer"
+
+#: .\templates\home.html:718
+msgid "Contact us:"
+msgstr "Entre em contato"
+
+#, fuzzy
+#~| msgid ""
+#~| " Since its founding in 2012, the "
+#~| "{{ legalhackers }}                        movement has grown into the "
+#~| "largest grassroots legal innovation community in the world."
+#~ msgid ""
+#~ "\n"
+#~ "                        Since its founding in 2012, the <a href=\"https://"
+#~ "www.legalhackers.org\">Legal Hackers</a>\n"
+#~ "                        movement has grown into the largest grassroots "
+#~ "legal innovation community in the world.\n"
+#~ "                        "
+#~ msgstr ""
+#~ " Desde sua fundação em 2012, o movimento <a href=\"https://www."
+#~ "legalhackers.org\">Legal Hackers</a>\n"
+#~ "                        cresceu como a maior comunidade de inovação do "
+#~ "mundo."
+
+#~ msgid "Since its founding in 2012, the"
+#~ msgstr "Desde fundação em 2012"

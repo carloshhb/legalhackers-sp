@@ -1,6 +1,7 @@
 {% load staticfiles %}
+{% load i18n %}
 <!DOCTYPE html>
-<html class="gr__tilda_cc" lang="pt-br">
+<html class="gr__tilda_cc" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -119,16 +120,16 @@
                         <div class="t183">
                             <div data-hook-content="covercontent">
                                 <div class="t183__wrapper">
-                                    <div class="t183__uptitle t-uptitle t-uptitle_xxl t-animate t-animate_started" data-animate-style="fadeindown" data-animate-group="yes" style="text-transform: uppercase; transition-delay: 0.3s;" field="subtitle">april 12–14, 2019, São Paulo</div>
+                                    <div class="t183__uptitle t-uptitle t-uptitle_xxl t-animate t-animate_started" data-animate-style="fadeindown" data-animate-group="yes" style="text-transform: uppercase; transition-delay: 0.3s;" field="subtitle">{% trans 'april 12–14, 2019, São Paulo'%}</div>
                                     <div class="t183__title t-title t-title_xl t-animate t-animate_started" data-animate-style="fadeindown" data-animate-group="yes" style="font-weight: 400; letter-spacing: 0.5px; text-shadow: rgb(0, 0, 0) 0px 2px 5px; transition-delay: 0s;" field="title">
-                                        <div style="opacity:1;">1st LATAM Legal Hackers Summit</div>
+                                        <div style="opacity:1;">{% trans '1st LATAM Legal Hackers Summit' %}</div>
                                     </div>
                                     <div class="t183__buttons" style="display: none;">
                                         <a href="#rec334803" target="" class="t-btn t-animate t-animate_started" data-animate-style="fadeindown" data-animate-group="yes" style="color: rgb(0, 0, 0); background-color: rgb(224, 224, 224);">
                                             <table style="width:100%; height:100%;">
                                                 <tbody>
                                                 <tr>
-                                                    <td>Learn more</td>
+                                                    <td>{% trans 'Learn more'%}</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -137,7 +138,7 @@
                                             <table style="width:100%; height:100%;">
                                                 <tbody>
                                                 <tr>
-                                                    <td>Buy ticket</td>
+                                                    <td>{% trans "Buy ticket"%}</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -170,18 +171,20 @@
         <div class="t166">
             <div class="t-container">
                 <div class="t-col t-col_8 t-prefix_1">
-                    <div class="t166__text t-text t-text_md" style="" field="text">Welcome to the 2019 LATAM Legal Hackers Summit!
+                    <div class="t166__text t-text t-text_md"  field="text">{% trans "Welcome to the 2019 LATAM Legal Hackers Summit!" %}
                         <br>
-                        <br>Since its founding in 2012, the <a href="http://www.legalhackers.org/">Legal Hackers</a> movement has grown into the largest grassroots legal innovation community in the world.
+                        <br>{% trans 'Since its founding in 2012, the <a href="https://www.legalhackers.org">Legal Hackers</a>' %}
+                        {% trans 'movement has grown into the largest grassroots legal innovation community in the world.' %}
                         <br>
-                        <br><a href="http://sp.legalhackers.org/" style="">São Paulo Legal Hackers</a> are hosting the first edition of the LATAM Legal Hackers Summit, that will convene chapter organizers and legal innovation thought leaders to share experiences and knowledge and to chart the path ahead for the Legal Hackers movement.
+                        <br><a href="http://sp.legalhackers.org/">{% trans 'São Paulo Legal Hackers' %}</a>
+                        {% trans 'are hosting the first edition of the LATAM Legal Hackers Summit, that will convene chapter organizers and legal innovation thought leaders to share experiences and knowledge and to chart the path ahead for the Legal Hackers movement.'%}
                         <br>
-                        <br>Our team is thrilled to be hosting the Summit. Can't wait to see you there!
+                        <br>{% trans "Our team is thrilled to be hosting the Summit. Can't wait to see you there!"%}
                         <br>
                     </div>
                 </div>
                 <div class="t-col t-col_2 ">
-                    <div class="t166__textsmall t-text t-text_xs t-opacity_70" style="" field="title"></div>
+                    <div class="t166__textsmall t-text t-text_xs t-opacity_70"  field="title"></div>
                 </div>
             </div>
         </div>
@@ -203,31 +206,31 @@
                     <div class="t-cell t-valign_top">
                         <div class="t512__bgimg t-bgimg" bgimgfield="li_img__1476961779840" data-original="https://static.tildacdn.com/lib/tildaicon/39306332-6632-4133-b165-373361353762/Layer_12.svg" style=" background-image: url('https://static.tildacdn.com/lib/tildaicon/39306332-6632-4133-b165-373361353762/Layer_12.svg');"></div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1476961779840">What</div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476961779840">Full open day summit conference with workshops, keynote speakers, panel discussions and huge networking; and an invitation-only organizers retreat.
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1476961779840">{% trans 'What' %}</div>
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476961779840">{% trans 'Full open day summit conference with workshops, keynote speakers, panel discussions and huge networking; and an invitation-only organizers retreat.' %}
                             <br>
                         </div>
                     </div>
                 </div>
-                <div class="t-clear t512__separator" style=""></div>
+                <div class="t-clear t512__separator" ></div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <div class="t512__bgimg t-bgimg" bgimgfield="li_img__1476961806716" data-original="https://static.tildacdn.com/lib/tildaicon/62653566-3061-4637-a138-383961303030/Layer_20.svg" style=" background-image: url('https://static.tildacdn.com/lib/tildaicon/62653566-3061-4637-a138-383961303030/Layer_20.svg');"></div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1476961806716">When</div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476961806716">April 12, 13 and 14</div>
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1476961806716">{% trans 'When'%}</div>
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476961806716">{% trans 'April 12, 13 and 14'%}</div>
                     </div>
                 </div>
-                <div class="t-clear t512__separator" style=""></div>
+                <div class="t-clear t512__separator" ></div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <div class="t512__bgimg t-bgimg" bgimgfield="li_img__1476961822275" data-original="https://static.tildacdn.com/lib/tildaicon/33333261-6134-4338-b130-663138613535/Tilda_Icons_44_travel_earth.svg" style=" background-image: url('https://static.tildacdn.com/lib/tildaicon/33333261-6134-4338-b130-663138613535/Tilda_Icons_44_travel_earth.svg');"></div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1476961822275">Where</div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476961822275">We will be hosting you in São Paulo. Wait a little bit more to discover our venue.</div>
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1476961822275">{% trans 'Where' %}</div>
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476961822275">{% trans 'We will be hosting you in São Paulo. Wait a little bit more to discover our venue.'%}</div>
                     </div>
                 </div>
             </div>
@@ -257,30 +260,42 @@
                             <path d="M.9 14.5C5.2 19.4 9.8 24 14.1 29c.4.5 1.3.3 1.6-.2 5.1-8.4 10.1-16.8 15-25.4.7-1.2-.5-2.1-1.3-.9C19.3 18 19 18.4 13.9 26.7c.5-.1 1.1-.1 1.6-.2-4.4-4.8-8.9-8.6-13.9-12.8-.4-.4-1.1.3-.7.8z"></path>
                         </svg>
                     </div>
-                    <div class="t508__textwrapper t-cell t-valign_top" style="">
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476889049104"><strong>April 12</strong> - <strong>Organizer's closed day. </strong><strong><span data-redactor-tag="span" style="color: rgb(249, 7, 7);">Exclusive to chapter organizers</span>. </strong>We will feature keynote speakers, workshops, pannel discussions and some community building activities. Wait for more details!</div>
+                    <div class="t508__textwrapper t-cell t-valign_top">
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476889049104"><strong>{% trans 'April 12'%}</strong> - <strong>{% trans "Organizer's closed day."%} </strong><strong><span data-redactor-tag="span" style="color: rgb(249, 7, 7);">{% trans "Exclusive to chapter organizers"%}</span>. </strong>{%trans "We will feature keynote speakers, workshops, pannel discussions and some community building activities. Wait for more details!"%}
+                            <br>
+                            <strong><u>{% trans "Location:"%}</u></strong> <strong>Looplex</strong><br>
+                            Rua Cardeal Arcoverde, 2365, Pinheiros - São Paulo/SP<br>
+                            {% trans "Close to Faria Lima subway" %}
+                        </div>
                     </div>
                 </div>
-                <div class="t-clear t508__separator" style=""></div>
+                <div class="t-clear t508__separator" ></div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <svg class="t508__checkmark" style="width:55px; height:55px;" fill="#ff1f1f" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.8 31.8">
                             <path d="M.9 14.5C5.2 19.4 9.8 24 14.1 29c.4.5 1.3.3 1.6-.2 5.1-8.4 10.1-16.8 15-25.4.7-1.2-.5-2.1-1.3-.9C19.3 18 19 18.4 13.9 26.7c.5-.1 1.1-.1 1.6-.2-4.4-4.8-8.9-8.6-13.9-12.8-.4-.4-1.1.3-.7.8z"></path>
                         </svg>
                     </div>
-                    <div class="t508__textwrapper t-cell t-valign_top" style="">
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476889075209"><strong>April 13</strong> - <strong>Open Innovation Day.</strong> <span style="color: rgb(246, 10, 10);"><strong>Open to the community</strong>.</span> Workshops, pannel discussions and a lot of networking. Wait for more details!</div>
+                    <div class="t508__textwrapper t-cell t-valign_top" >
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476889075209"><strong>{% trans "April 13"%}</strong> - <strong>{%trans "Open Innovation Day."%}</strong> <span style="color: rgb(246, 10, 10);"><strong>{%trans "Open to the community"%}</strong>.</span> {%trans "Workshops, pannel discussions and a lot of networking." %}
+                            <br>
+                            <strong><u>{% trans "Location:"%}</u></strong> <strong>AASP - Associação dos Advogados de São Paulo</strong><br>
+                            Alameda Santos, 2.159 – 15º andar, Cerqueira César, São Paulo/SP
+                            <br>
+                            {% trans "Close to Consolação subway" %}
+
+                        </div>
                     </div>
                 </div>
-                <div class="t-clear t508__separator" style=""></div>
+                <div class="t-clear t508__separator" ></div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <svg class="t508__checkmark" style="width:55px; height:55px;" fill="#ff1f1f" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.8 31.8">
                             <path d="M.9 14.5C5.2 19.4 9.8 24 14.1 29c.4.5 1.3.3 1.6-.2 5.1-8.4 10.1-16.8 15-25.4.7-1.2-.5-2.1-1.3-.9C19.3 18 19 18.4 13.9 26.7c.5-.1 1.1-.1 1.6-.2-4.4-4.8-8.9-8.6-13.9-12.8-.4-.4-1.1.3-.7.8z"></path>
                         </svg>
                     </div>
-                    <div class="t508__textwrapper t-cell t-valign_top" style="">
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476889079427"><strong>April 14</strong> - A really fun day with our friends in São Paulo!</div>
+                    <div class="t508__textwrapper t-cell t-valign_top" >
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476889079427"><strong>{% trans 'April 14'%}</strong> - {% trans "A really fun day with our friends in São Paulo!"%}</div>
                     </div>
                 </div>
             </div>
@@ -307,10 +322,10 @@
                 <div class="t-col t-col_12">
                     <div class="t-section__topwrapper t-align_center">
                         <div class="t-section__title t-title t-title_xs" field="btitle">
-                            <div style="font-size:38px;" data-customstyle="yes">SPEAKERS</div>
+                            <div style="font-size:38px;" data-customstyle="yes">{% trans "SPEAKERS"%}</div>
                         </div>
                         <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">
-                            <div style="font-size:22px;" data-customstyle="yes">The weekend will include a fascinating array of keynotes, workshops, and social interaction. Wait a little bit more to find out about our speakers:</div>
+                            <div style="font-size:22px;" data-customstyle="yes">{% trans "The weekend will include a fascinating array of keynotes, workshops, and social interaction. Wait a little bit more to find out about our speakers:" %}</div>
                         </div>
                     </div>
                 </div>
@@ -324,9 +339,9 @@
             <div class="t-section__container t-container">
                 <div class="t-col t-col_12">
                     <div class="t-section__topwrapper t-align_center">
-                        <div class="t-section__title t-title t-title_xs" field="btitle">Legal Hackers Organizer's Retreat</div>
+                        <div class="t-section__title t-title t-title_xs" field="btitle">{% trans "Legal Hackers Organizer's Retreat" %}</div>
                         <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">
-                            <div style="color:#f80909;" data-customstyle="yes">Exclusive to Legal Hackers Organizers</div>
+                            <div style="color:#f80909;" data-customstyle="yes">{% trans "Exclusive to Legal Hackers Organizers" %}</div>
                         </div>
                     </div>
                 </div>
@@ -334,75 +349,86 @@
             <div class="t-container">
                 <div class="t521__row t-row t-clear">
                     <div class="t521__leftcol t-col t-col_3 t-prefix_2">
-                        <div class="t521__time t-name t-name_xl" style="" field="li_date__1550713553856">Thursday, April 11</div>
+                        <div class="t521__time t-name t-name_xl"  field="li_date__1550713553856">{% trans "Thursday, April 11"%}</div>
                     </div>
                     <div class="t521__rightcol t-col t-col_6 t-prefix_1">
-                        <div class="t521__text t-text t-text_md" style="" field="li_text__1550713553856">Legal Hackers welcome dinner:
+                        <div class="t521__text t-text t-text_md"  field="li_text__1550713553856">{% trans "Legal Hackers welcome dinner:"%}
                             <br>
                             <ul>
-                                <li>7:00 PM - Location TBA.</li>
+                                <li>{% trans "7:00 PM - Location TBA."%}</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="t521__row t-row t-clear">
                     <div class="t521__leftcol t-col t-col_3 t-prefix_2">
-                        <div class="t521__time t-name t-name_xl" style="" field="li_date__1550713477607">Friday, April 12</div>
+                        <div class="t521__time t-name t-name_xl"  field="li_date__1550713477607">{% trans "Friday, April 12"%}</div>
                     </div>
                     <div class="t521__rightcol t-col t-col_6 t-prefix_1">
-                        <div class="t521__text t-text t-text_md" style="" field="li_text__1550713477607"><strong>Organizers retreat:</strong> <span style="color: rgb(247, 5, 5);">Exclusive to Legal Hackers Organizers.</span> <em>(To be confirmed. <b>Subject of changes</b>)</em>
+                        <div class="t521__text t-text t-text_md"  field="li_text__1550713477607"><strong>{% trans "Organizers retreat:"%} </strong> <span style="color: rgb(247, 5, 5);">{% trans "Exclusive to Legal Hackers Organizers."%} </span> <em> {% trans "(To be confirmed. <b>Subject of changes</b>)" %}</em>
+                            <br>
+                            <br>
+                            <strong><u>{% trans "Location:"%}</u></strong> <strong>Looplex</strong><br>
+                            Rua Cardeal Arcoverde, 2365, Pinheiros - São Paulo/SP<br>
+                            {% trans "Close to Faria Lima subway" %}
                             <br>
                             <br>
                             <ul>
-                                <li>9:00 AM - Breakfast and Coffee </li>
-                                <li> 9:45 AM - Welcoming Remarks, with Legal Hackers Team </li>
-                                <li> 10:00 AM - Morning Keynote: The Ethos of Legal Hackers </li>
-                                <li>10:30 AM - Morning Lightning Talks </li>
-                                <li>11:30 AM - How to build your community </li>
-                                <li>12:30 PM - Lunch </li>
-                                <li>2:00 PM - Afternoon Keynote </li>
-                                <li>2:30 PM - Early afternoon workshops </li>
-                                <li>3:30 PM - Coffee-break </li>
-                                <li>3:45 PM - Closing Keynote </li>
-                                <li>4:30 PM - End of Day Photo</li>
-                                <li>7:00 PM - Organizers &amp; Speakers Dinner (Location TBA) </li>
+                                <li>{% trans "9:00 AM - Breakfast and Coffee"%} </li>
+                                <li>{% trans "9:45 AM - Welcoming Remarks, with Legal Hackers Team"%} </li>
+                                <li>{% trans "10:00 AM - Morning Keynote: The Ethos of Legal Hackers"%} </li>
+                                <li>{% trans "10:30 AM - Morning Lightning Talks"%} </li>
+                                <li>{% trans "11:30 AM - How to build your community"%} </li>
+                                <li>{% trans "12:30 PM - Lunch"%} </li>
+                                <li>{% trans "2:00 PM - Afternoon Keynote"%} </li>
+                                <li>{% trans "2:30 PM - Early afternoon workshops"%} </li>
+                                <li>{% trans "3:30 PM - Coffee-break"%} </li>
+                                <li>{% trans "3:45 PM - Closing Keynote"%} </li>
+                                <li>{% trans "4:30 PM - End of Day Photo"%}</li>
+                                <li>{% trans "7:00 PM - Organizers &amp; Speakers Dinner (Location TBA)"%} </li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="t521__row t-row t-clear">
                     <div class="t521__leftcol t-col t-col_3 t-prefix_2">
-                        <div class="t521__time t-name t-name_xl" style="" field="li_date__1477567069923">Saturday, April 13</div>
+                        <div class="t521__time t-name t-name_xl"  field="li_date__1477567069923">{% trans "Saturday, April 13"%}</div>
                     </div>
                     <div class="t521__rightcol t-col t-col_6 t-prefix_1">
-                        <div class="t521__text t-text t-text_md" style="" field="li_text__1477567069923"><strong>Open Innovation Day:</strong> <span style="color: rgb(249, 10, 10);">Open to the public</span><span style="color: rgb(249, 10, 10);">.</span> <em>(To be confirmed. Subject of changes)</em>
+                        <div class="t521__text t-text t-text_md"  field="li_text__1477567069923"><strong>{% trans "Open Innovation Day:"%}</strong> <span style="color: rgb(249, 10, 10);">{% trans "Open to the public"%}</span><span style="color: rgb(249, 10, 10);">.</span> <em>{% trans "(To be confirmed. Subject of changes)"%}</em>
+                            <br>
+                            <br>
+                            <strong><u>{% trans "Location:"%}</u></strong> <strong>AASP - Associação dos Advogados de São Paulo</strong><br>
+                            Alameda Santos, 2.159 – 15º andar, Cerqueira César, São Paulo/SP
+                            <br>
+                            {% trans "Close to Consolação subway" %}
                             <br>
                             <br>
                             <ul>
-                                <li> 9:00 AM - Breakfast and Coffee </li>
-                                <li> 9:45 AM - Welcoming Remarks, with Legal Hackers Team </li>
-                                <li> 10:00 AM - Morning Keynote: Reflections on the global Legal Hackers movement </li>
-                                <li> 10:30 AM - Legal Education in the Era of Legal Tech </li>
-                                <li> 11:30 AM - Legal Practice in the Era of Legal Tech. </li>
-                                <li> 12:30 PM - Lunch </li>
-                                <li> 2:00 PM - Early afternoon Workshop</li>
-                                <li> 2:45 PM - Legal A.I.</li>
-                                <li> 3:30 PM - Coffee-break </li>
-                                <li> 3:45 PM - Blockchain Law &amp; Policy </li>
-                                <li> 4:45 PM - Legal Design workshop and Ideathon </li>
-                                <li>5:45 PM - Coffee-break</li>
-                                <li>6:00 PM - Ideathon Elevator Pitch and Discussion</li>
-                                <li>7:00 PM - Happy Hour (Location TBA) </li>
+                                <li>{% trans "9:00 AM - Breakfast and Coffee"%} </li>
+                                <li>{% trans "9:45 AM - Welcoming Remarks, with Legal Hackers Team"%} </li>
+                                <li>{% trans "10:00 AM - Morning Keynote: Reflections on the global Legal Hackers movement"%} </li>
+                                <li>{% trans "10:30 AM - Legal Education in the Era of Legal Tech"%} </li>
+                                <li>{% trans "11:30 AM - Legal Practice in the Era of Legal Tech."%} </li>
+                                <li>{% trans "12:30 PM - Lunch"%} </li>
+                                <li>{% trans "2:00 PM - Early afternoon Workshop"%}</li>
+                                <li>{% trans "2:45 PM - Legal A.I."%}</li>
+                                <li>{% trans "3:30 PM - Coffee-break"%} </li>
+                                <li>{% trans "3:45 PM - Blockchain Law &amp; Policy"%} </li>
+                                <li>{% trans "4:45 PM - Legal Design workshop and Ideathon"%} </li>
+                                <li>{% trans "5:45 PM - Coffee-break"%}</li>
+                                <li>{% trans "6:00 PM - Ideathon Elevator Pitch and Discussion"%}</li>
+                                <li>{% trans "7:00 PM - Happy Hour (Location TBA)"%} </li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="t521__row t-row t-clear">
                     <div class="t521__leftcol t-col t-col_3 t-prefix_2">
-                        <div class="t521__time t-name t-name_xl" style="" field="li_date__1481890120699">Sunday, April 14</div>
+                        <div class="t521__time t-name t-name_xl"  field="li_date__1481890120699">{% trans "Sunday, April 14"%}</div>
                     </div>
                     <div class="t521__rightcol t-col t-col_6 t-prefix_1">
-                        <div class="t521__text t-text t-text_md" style="" field="li_text__1481890120699">Fun day! Wait for more details...</div>
+                        <div class="t521__text t-text t-text_md"  field="li_text__1481890120699">{% trans "Fun day! Wait for more details..."%}</div>
                     </div>
                 </div>
             </div>
@@ -419,7 +445,7 @@
                         <div class="t182">
                             <div data-hook-content="covercontent">
                                 <div class="t182__wrapper">
-                                    <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr"><strong><span data-redactor-tag="span" style="color: rgb(255, 255, 255);">Legal Hackers chapter organizer</span>? <br><strong>Stay tuned and we'll anounce shortly how to make your subscription ...</strong></strong>
+                                    <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr"><strong><span data-redactor-tag="span" style="color: rgb(255, 255, 255);">{% trans "Legal Hackers chapter organizer</span>? <br><strong>Stay tuned and we'll anounce shortly how to make your subscription ...</strong></strong>"%}
                                         <br>
                                     </div>
                                     <div class="t182__buttons">
@@ -427,7 +453,7 @@
                                             <table style="width:100%; height:100%;">
                                                 <tbody>
                                                 <tr>
-                                                    <td>Wait for the registration form</td>
+                                                    <td>{% trans "Wait for the registration form"%}</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -461,34 +487,39 @@
             <div class="t-section__container t-container">
                 <div class="t-col t-col_12">
                     <div class="t-section__topwrapper t-align_center">
-                        <div class="t-section__title t-title t-title_xs" field="btitle">Open Innovation Day</div>
+                        <div class="t-section__title t-title t-title_xs" field="btitle">{% trans "Open Innovation Day"%}</div>
                     </div>
                 </div>
             </div>
             <div class="t-container">
                 <div class="t521__row t-row t-clear">
                     <div class="t521__leftcol t-col t-col_3 t-prefix_2">
-                        <div class="t521__time t-name t-name_xl" style="" field="li_date__1477567069923">Saturday, April 13</div>
+                        <div class="t521__time t-name t-name_xl"  field="li_date__1477567069923">{% trans "Saturday, April 13"%}</div>
                     </div>
                     <div class="t521__rightcol t-col t-col_6 t-prefix_1">
-                        <div class="t521__text t-text t-text_md" style="" field="li_text__1477567069923"><strong>Open Innovation Day:</strong> <span style="color: rgb(249, 10, 10);">Open to the public</span><span style="color: rgb(249, 10, 10);">.</span> <em>(To be confirmed. <b>Subject of changes</b>)</em>
+                        <div class="t521__text t-text t-text_md"  field="li_text__1477567069923"><strong>{% trans "Open Innovation Day:"%}</strong> <span style="color: rgb(249, 10, 10);">{% trans "Open to the public"%}</span><span style="color: rgb(249, 10, 10);">.</span> <em>{% trans "(To be confirmed. <b>Subject of changes</b>)"%}</em>
+                            <br>
+                            <br>
+                            <strong><u>{% trans "Location:"%}</u></strong> <strong>Looplex</strong><br>
+                            Rua Cardeal Arcoverde, 2365, Pinheiros - São Paulo/SP<br>
+                            {% trans "Close to Faria Lima subway" %}
                             <br>
                             <br>
                             <ul>
-                                <li> 9:00 AM - Breakfast and Coffee </li>
-                                <li> 9:45 AM - Welcoming Remarks, with Legal Hackers Team </li>
-                                <li> 10:00 AM - Morning Keynote: Reflections on the global Legal Hackers movement </li>
-                                <li> 10:30 AM - Legal Education in the Era of Legal Tech </li>
-                                <li> 11:30 AM - Legal Practice in the Era of Legal Tech. </li>
-                                <li> 12:30 PM - Lunch </li>
-                                <li> 2:00 PM - Early afternoon Workshop</li>
-                                <li> 2:45 PM - Legal A.I.</li>
-                                <li> 3:30 PM - Coffee-break </li>
-                                <li> 3:45 PM - Blockchain Law &amp; Policy </li>
-                                <li> 4:45 PM - Legal Design workshop and Ideathon </li>
-                                <li>5:45 PM - Coffee-break</li>
-                                <li>6:00 PM - Ideathon Elevator Pitch and Discussion</li>
-                                <li>7:00 PM - Happy Hour (Location TBA) </li>
+                                <li>{% trans " 9:00 AM - Breakfast and Coffee"%} </li>
+                                <li>{% trans " 9:45 AM - Welcoming Remarks, with Legal Hackers Team"%} </li>
+                                <li>{% trans " 10:00 AM - Morning Keynote: Reflections on the global Legal Hackers movement"%} </li>
+                                <li>{% trans " 10:30 AM - Legal Education in the Era of Legal Tech"%} </li>
+                                <li>{% trans " 11:30 AM - Legal Practice in the Era of Legal Tech."%} </li>
+                                <li>{% trans " 12:30 PM - Lunch"%} </li>
+                                <li>{% trans " 2:00 PM - Early afternoon Workshop"%}</li>
+                                <li>{% trans " 2:45 PM - Legal A.I."%}</li>
+                                <li>{% trans " 3:30 PM - Coffee-break"%} </li>
+                                <li>{% trans " 3:45 PM - Blockchain Law &amp; Policy"%} </li>
+                                <li>{% trans " 4:45 PM - Legal Design workshop and Ideathon"%} </li>
+                                <li>{% trans "5:45 PM - Coffee-break"%}</li>
+                                <li>{% trans "6:00 PM - Ideathon Elevator Pitch and Discussion"%}</li>
+                                <li>{% trans "7:00 PM - Happy Hour (Location TBA)"%} </li>
                             </ul>
                         </div>
                     </div>
@@ -507,8 +538,8 @@
                         <div class="t182">
                             <div data-hook-content="covercontent">
                                 <div class="t182__wrapper">
-                                    <div class="t182__title t-title t-title_xl" style="" field="title">R$ 25,00</div>
-                                    <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr"><strong>Interested on our Open Innovation Day? <br>Stay tuned and we'll anounce shortly how to make your subscription ...</strong><strong></strong>
+                                    <div class="t182__title t-title t-title_xl"  field="title">R$ 25,00</div>
+                                    <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr">{% trans "<strong>Interested on our Open Innovation Day? <br>Stay tuned and we'll anounce shortly how to make your subscription ...</strong><strong></strong>"%}
                                         <br>
                                     </div>
                                     <div class="t182__buttons">
@@ -516,7 +547,7 @@
                                             <table style="width:100%; height:100%;">
                                                 <tbody>
                                                 <tr>
-                                                    <td>Wait for more details on registration</td>
+                                                    <td>{% trans "Wait for more details on registration"%}</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -550,7 +581,7 @@
             <div class="t-section__container t-container">
                 <div class="t-col t-col_12">
                     <div class="t-section__topwrapper t-align_center">
-                        <div class="t-section__title t-title t-title_xs" field="btitle">Important notes</div>
+                        <div class="t-section__title t-title t-title_xs" field="btitle">{% trans "Important notes"%}</div>
                     </div>
                 </div>
             </div>
@@ -561,76 +592,76 @@
 
                         </div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1476961779840">
-                            <strong>Attire</strong>
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1476961779840">
+                            <strong>{% trans "Attire"%}</strong>
                         </div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476961779840">Summit attire is smart casual/jeans etc.
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476961779840">{% trans "Summit attire is smart casual/jeans etc."%}
                             <br>
                         </div>
                     </div>
                 </div>
-                <div class="t-clear t512__separator" style=""></div>
+                <div class="t-clear t512__separator" ></div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <div class="t512__bgimg t-bgimg" bgimgfield="li_img__1476961806716" data-original="https://static.tildacdn.com/lib/tildaicon/61346133-3635-4161-a638-386464653865/15re_search.svg" style=" background-image: url('https://static.tildacdn.com/lib/tildaicon/61346133-3635-4161-a638-386464653865/15re_search.svg');"></div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1476961806716">
-                            <strong>Hotels and Hostels</strong>
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1476961806716">
+                            <strong>{% trans "Hotels and Hostels"%}</strong>
                         </div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476961806716">
-                            <strong></strong>We recommend staying near downtown (around Paulista Avenue) or near the event (around Faria Lima Avenue/Vila Olimpia). Check some options
-                            <a href="https://www.trivago.com.br/?aDateRange%5Barr%5D=2019-04-11&amp;aDateRange%5Bdep%5D=2019-04-15&amp;aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;iPathId=79447&amp;aGeoCode%5Blat%5D=-23.563938&amp;aGeoCode%5Blng%5D=-46.653446&amp;iGeoDistanceItem=137633&amp;iGeoDistanceLimit=20000&amp;aSortingOrderBoosting%5B0%5D=distance_poi&amp;aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;aOverallLiking=1%2C2%2C3%2C4%2C5&amp;sOrderBy=relevance%20desc&amp;bTopDealsOnly=false&amp;iRoomType=1&amp;cpt=13763302&amp;iIncludeAll=0&amp;iViewType=0&amp;bIsSeoPage=0&amp;bIsSitemap=false" style="font-size: 20px; font-weight: 600;">here</a>
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476961806716">
+                            <strong></strong>{% trans "We recommend staying near downtown (around Paulista Avenue) or near the event (around Faria Lima Avenue/Vila Olimpia). Check some options"%}
+                            <a href="https://www.trivago.com.br/?aDateRange%5Barr%5D=2019-04-11&amp;aDateRange%5Bdep%5D=2019-04-15&amp;aPriceRange%5Bfrom%5D=0&amp;aPriceRange%5Bto%5D=0&amp;iPathId=79447&amp;aGeoCode%5Blat%5D=-23.563938&amp;aGeoCode%5Blng%5D=-46.653446&amp;iGeoDistanceItem=137633&amp;iGeoDistanceLimit=20000&amp;aSortingOrderBoosting%5B0%5D=distance_poi&amp;aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&amp;aOverallLiking=1%2C2%2C3%2C4%2C5&amp;sOrderBy=relevance%20desc&amp;bTopDealsOnly=false&amp;iRoomType=1&amp;cpt=13763302&amp;iIncludeAll=0&amp;iViewType=0&amp;bIsSeoPage=0&amp;bIsSitemap=false" style="font-size: 20px; font-weight: 600;">{% trans 'here.'%}</a>
                         </div>
                     </div>
                 </div>
-                <div class="t-clear t512__separator" style="">
+                <div class="t-clear t512__separator" >
 
                 </div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <div class="t512__bgimg t-bgimg" bgimgfield="li_img__1476961822275" data-original="https://static.tildacdn.com/lib/tildaicon/62363039-3137-4230-a232-643165346162/6bs_sunbaths.svg" style=" background-image: url('https://static.tildacdn.com/lib/tildaicon/62363039-3137-4230-a232-643165346162/6bs_sunbaths.svg');"></div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1476961822275">Weather</div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1476961822275">Sao Paulo in April is hot and humid (hottest days and cooler nights). Check the weather here.</div>
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1476961822275">{% trans "Weather"%}</div>
+                        <div class="t-descr t-descr_sm"  field="li_descr__1476961822275">{% trans "Sao Paulo in April is hot and humid (hottest days and cooler nights)."%}</div>
                     </div>
                 </div>
-                <div class="t-clear t512__separator" style=""></div>
+                <div class="t-clear t512__separator" ></div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <div class="t512__bgimg t-bgimg" bgimgfield="li_img__1550634244497" data-original="https://static.tildacdn.com/lib/tildaicon/64303537-3134-4239-b065-386466613462/Tilda_Icons_41_hotel_taxi.svg" style=" background-image: url('https://static.tildacdn.com/lib/tildaicon/64303537-3134-4239-b065-386466613462/Tilda_Icons_41_hotel_taxi.svg');"></div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1550634244497">Getting around</div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1550634244497">Taxis, Ubers, 99Taxis, Cabify etc. are plentiful, but the subway/bus is always cheaper (R$ 4,30). Check the status of the subway operation here.</div>
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1550634244497">{% trans "Getting around"%}</div>
+                        <div class="t-descr t-descr_sm"  field="li_descr__1550634244497">{% trans "Taxis, Ubers, 99Taxis, Cabify etc. are plentiful, but the subway/bus is always cheaper (R$ 4,30). Check the status of the subway operation here."%}</div>
                     </div>
                 </div>
-                <div class="t-clear t512__separator" style=""></div>
+                <div class="t-clear t512__separator" ></div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <div class="t512__bgimg t-bgimg" bgimgfield="li_img__1550634256966" data-original="https://static.tildacdn.com/lib/tildaicon/38353838-3163-4362-a462-326433393339/cowork_energy.svg" style=" background-image: url('https://static.tildacdn.com/lib/tildaicon/38353838-3163-4362-a462-326433393339/cowork_energy.svg');">
 
                         </div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1550634256966">
-                            <strong>Voltage and Sockets</strong>
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1550634256966">
+                            <strong>{% trans "Voltage and Sockets"%}</strong>
                         </div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1550634256966">In Sao Paulo the voltage is 110 V and the power plugs and sockets are of type "N". We recommend that you bring a universal plug adapter.</div>
+                        <div class="t-descr t-descr_sm"  field="li_descr__1550634256966">{% trans "In Sao Paulo the voltage is 110 V and the power plugs and sockets are of type 'N'. We recommend that you bring a universal plug adapter."%}</div>
                     </div>
                 </div>
-                <div class="t-clear t512__separator" style=""></div>
+                <div class="t-clear t512__separator" ></div>
                 <div class="t-col t-col_8 t-prefix_2 t-item">
                     <div class="t-cell t-valign_top">
                         <div class="t512__bgimg t-bgimg" bgimgfield="li_img__1550634295761" data-original="https://static.tildacdn.com/lib/tildaicon/66363239-3133-4333-a461-326632656461/Layer_3.svg" style=" background-image: url('https://static.tildacdn.com/lib/tildaicon/66363239-3133-4333-a461-326632656461/Layer_3.svg');">
 
                         </div>
                     </div>
-                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" style="">
-                        <div class="t-name t-name_md t512__bottommargin" style="" field="li_title__1550634295761">Wi-fi/SIMs</div>
-                        <div class="t-descr t-descr_sm" style="" field="li_descr__1550634295761">The Summit will have wi-fi. Let us know if you need options for SIMs.</div>
+                    <div class="t512__textwrapper t512__textwr_leftpadding t-cell t-valign_top" >
+                        <div class="t-name t-name_md t512__bottommargin"  field="li_title__1550634295761">Wi-fi/SIMs</div>
+                        <div class="t-descr t-descr_sm"  field="li_descr__1550634295761">{% trans "The Summit will have wi-fi. Let us know if you need options for SIMs."%}</div>
                     </div>
                 </div>
             </div>
@@ -642,8 +673,8 @@
             <div class="t-section__container t-container">
                 <div class="t-col t-col_12">
                     <div class="t-section__topwrapper t-align_center">
-                        <div class="t-section__title t-title t-title_xs" field="btitle">PARTNERS</div>
-                        <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">If you are interested in becoming a partner or sponsor, please feel free to write us.
+                        <div class="t-section__title t-title t-title_xs" field="btitle">{% trans "PARTNERS"%}</div>
+                        <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">{% trans "If you are interested in becoming a partner or sponsor, please feel free to write us."%}
                             <div class="d-flex">
                                 <div class="partner-logo">
                                     <a href="https://www.jurisintel.com.br">
@@ -673,109 +704,128 @@
             <div class="t030">
                 <div class="t-container t-align_center">
                     <div class="t-col t-col_8 t-prefix_2">
-                        <div class="t030__title t-title t-title_xxs" field="title" style="">THE VENUE</div>
-                        <div class="t030__descr t-descr t-descr_md" field="descr" style="">Wait up to find out who's hosting us in São Paulo during our summit!</div>
+                        <div class="t030__title t-title t-title_xxs" field="title" >{% trans "THE VENUE"%}</div>
+                    </div>
+                </div>
+                <div class="t-container">
+                    <div class="t-col t-col_8 t-item" style="padding: 30px 0 0 300px;">
+                        <div class="t-descr t-descr_sm"><strong>{% trans 'April 12'%}</strong>
+                            <br>
+                            <strong><u>{% trans "Location:"%}</u></strong> <strong>Looplex</strong><br>
+                            Rua Cardeal Arcoverde, 2365, Pinheiros - São Paulo/SP<br>
+                            {% trans "Close to Faria Lima subway" %}
+                            <br><br>
+                        </div>
+                        <div class="t-descr t-descr_sm"><strong>{% trans "April 13"%}</strong>
+                            <br>
+                            <strong><u>{% trans "Location:"%}</u></strong> <strong>AASP - Associação dos Advogados de São Paulo</strong><br>
+                            Alameda Santos, 2.159 – 15º andar, Cerqueira César, São Paulo/SP
+                            <br>
+                            {% trans "Close to Consolação subway" %}
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="rec88969562" class="r t-rec t-rec_pt_150 t-rec_pb_150 r_hidden r_anim" style="padding-top:150px;padding-bottom:150px; " data-record-type="560">
-            <!-- t560-->
-            <div class="t560">
-                <div class="t-container">
-                    <div class="t-col t-col_8 t-prefix_2 t-align_center">
-                        <div class="t560__title t-title t-title_xs" style="" field="title">Contact us:</div>
-                        <div class="t560__text t-text-impact t-text-impact_xs " style="" field="text">+55 84 99409 7747
-                            <br>splegalhackers@gmail.com
-                            <br>
-                        </div>
-                        <div class="t-sociallinks">
-                            <div class="t-sociallinks__wrapper">
-                                <div class="t-sociallinks__item">
-                                    <a href="https://www.facebook.com/splegalhackers" target="_blank">
-                                        <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+    </div>
+    <div id="rec88969562" class="r t-rec t-rec_pt_150 t-rec_pb_150 r_hidden r_anim" style="padding-top:150px;padding-bottom:150px; " data-record-type="560">
+        <!-- t560-->
+        <div class="t560">
+            <div class="t-container">
+                <div class="t-col t-col_8 t-prefix_2 t-align_center">
+                    <div class="t560__title t-title t-title_xs"  field="title">{% trans "Contact us:"%}</div>
+                    <div class="t560__text t-text-impact t-text-impact_xs "  field="text">+55 84 99409 7747
+                        <br>splegalhackers@gmail.com
+                        <br>
+                    </div>
+                    <div class="t-sociallinks">
+                        <div class="t-sociallinks__wrapper">
+                            <div class="t-sociallinks__item">
+                                <a href="https://www.facebook.com/splegalhackers" target="_blank">
+                                    <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
                                             <desc>Facebook</desc>
-                                            <path d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z"></path>
+                                        <path d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z"></path>
                                         </svg>
-                                    </a>
-                                </div>
-                                <div class="t-sociallinks__item">
-                                    <a href="https://twitter.com/SPlegalhackers" target="_blank">
-                                        <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+                                </a>
+                            </div>
+                            <div class="t-sociallinks__item">
+                                <a href="https://twitter.com/SPlegalhackers" target="_blank">
+                                    <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
                                             <desc>Twitter</desc>
-                                            <path d="M47.762,24c0,13.121-10.639,23.76-23.761,23.76S0.24,37.121,0.24,24c0-13.124,10.639-23.76,23.761-23.76 S47.762,10.876,47.762,24 M38.031,12.375c-1.177,0.7-2.481,1.208-3.87,1.481c-1.11-1.186-2.694-1.926-4.455-1.926 c-3.364,0-6.093,2.729-6.093,6.095c0,0.478,0.054,0.941,0.156,1.388c-5.063-0.255-9.554-2.68-12.559-6.367 c-0.524,0.898-0.825,1.947-0.825,3.064c0,2.113,1.076,3.978,2.711,5.07c-0.998-0.031-1.939-0.306-2.761-0.762v0.077 c0,2.951,2.1,5.414,4.889,5.975c-0.512,0.14-1.05,0.215-1.606,0.215c-0.393,0-0.775-0.039-1.146-0.109 c0.777,2.42,3.026,4.182,5.692,4.232c-2.086,1.634-4.712,2.607-7.567,2.607c-0.492,0-0.977-0.027-1.453-0.084 c2.696,1.729,5.899,2.736,9.34,2.736c11.209,0,17.337-9.283,17.337-17.337c0-0.263-0.004-0.527-0.017-0.789 c1.19-0.858,2.224-1.932,3.039-3.152c-1.091,0.485-2.266,0.811-3.498,0.958C36.609,14.994,37.576,13.8,38.031,12.375"></path>
+                                        <path d="M47.762,24c0,13.121-10.639,23.76-23.761,23.76S0.24,37.121,0.24,24c0-13.124,10.639-23.76,23.761-23.76 S47.762,10.876,47.762,24 M38.031,12.375c-1.177,0.7-2.481,1.208-3.87,1.481c-1.11-1.186-2.694-1.926-4.455-1.926 c-3.364,0-6.093,2.729-6.093,6.095c0,0.478,0.054,0.941,0.156,1.388c-5.063-0.255-9.554-2.68-12.559-6.367 c-0.524,0.898-0.825,1.947-0.825,3.064c0,2.113,1.076,3.978,2.711,5.07c-0.998-0.031-1.939-0.306-2.761-0.762v0.077 c0,2.951,2.1,5.414,4.889,5.975c-0.512,0.14-1.05,0.215-1.606,0.215c-0.393,0-0.775-0.039-1.146-0.109 c0.777,2.42,3.026,4.182,5.692,4.232c-2.086,1.634-4.712,2.607-7.567,2.607c-0.492,0-0.977-0.027-1.453-0.084 c2.696,1.729,5.899,2.736,9.34,2.736c11.209,0,17.337-9.283,17.337-17.337c0-0.263-0.004-0.527-0.017-0.789 c1.19-0.858,2.224-1.932,3.039-3.152c-1.091,0.485-2.266,0.811-3.498,0.958C36.609,14.994,37.576,13.8,38.031,12.375"></path>
                                         </svg>
-                                    </a>
-                                </div>
-                                <div class="t-sociallinks__item">
-                                    <a href="https://www.instagram.com/splegalhackers/" target="_blank">
-                                        <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 30 30" xml:space="preserve">
+                                </a>
+                            </div>
+                            <div class="t-sociallinks__item">
+                                <a href="https://www.instagram.com/splegalhackers/" target="_blank">
+                                    <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 30 30" xml:space="preserve">
                                             <desc>Instagram</desc>
-                                            <path d="M15,11.014 C12.801,11.014 11.015,12.797 11.015,15 C11.015,17.202 12.802,18.987 15,18.987 C17.199,18.987 18.987,17.202 18.987,15 C18.987,12.797 17.199,11.014 15,11.014 L15,11.014 Z M15,17.606 C13.556,17.606 12.393,16.439 12.393,15 C12.393,13.561 13.556,12.394 15,12.394 C16.429,12.394 17.607,13.561 17.607,15 C17.607,16.439 16.444,17.606 15,17.606 L15,17.606 Z"></path>
-                                            <path d="M19.385,9.556 C18.872,9.556 18.465,9.964 18.465,10.477 C18.465,10.989 18.872,11.396 19.385,11.396 C19.898,11.396 20.306,10.989 20.306,10.477 C20.306,9.964 19.897,9.556 19.385,9.556 L19.385,9.556 Z"></path>
-                                            <path d="M15.002,0.15 C6.798,0.15 0.149,6.797 0.149,15 C0.149,23.201 6.798,29.85 15.002,29.85 C23.201,29.85 29.852,23.202 29.852,15 C29.852,6.797 23.201,0.15 15.002,0.15 L15.002,0.15 Z M22.666,18.265 C22.666,20.688 20.687,22.666 18.25,22.666 L11.75,22.666 C9.312,22.666 7.333,20.687 7.333,18.28 L7.333,11.734 C7.333,9.312 9.311,7.334 11.75,7.334 L18.25,7.334 C20.688,7.334 22.666,9.312 22.666,11.734 L22.666,18.265 L22.666,18.265 Z"></path>
+                                        <path d="M15,11.014 C12.801,11.014 11.015,12.797 11.015,15 C11.015,17.202 12.802,18.987 15,18.987 C17.199,18.987 18.987,17.202 18.987,15 C18.987,12.797 17.199,11.014 15,11.014 L15,11.014 Z M15,17.606 C13.556,17.606 12.393,16.439 12.393,15 C12.393,13.561 13.556,12.394 15,12.394 C16.429,12.394 17.607,13.561 17.607,15 C17.607,16.439 16.444,17.606 15,17.606 L15,17.606 Z"></path>
+                                        <path d="M19.385,9.556 C18.872,9.556 18.465,9.964 18.465,10.477 C18.465,10.989 18.872,11.396 19.385,11.396 C19.898,11.396 20.306,10.989 20.306,10.477 C20.306,9.964 19.897,9.556 19.385,9.556 L19.385,9.556 Z"></path>
+                                        <path d="M15.002,0.15 C6.798,0.15 0.149,6.797 0.149,15 C0.149,23.201 6.798,29.85 15.002,29.85 C23.201,29.85 29.852,23.202 29.852,15 C29.852,6.797 23.201,0.15 15.002,0.15 L15.002,0.15 Z M22.666,18.265 C22.666,20.688 20.687,22.666 18.25,22.666 L11.75,22.666 C9.312,22.666 7.333,20.687 7.333,18.28 L7.333,11.734 C7.333,9.312 9.311,7.334 11.75,7.334 L18.25,7.334 C20.688,7.334 22.666,9.312 22.666,11.734 L22.666,18.265 L22.666,18.265 Z"></path>
                                         </svg>
-                                    </a>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="rec88969599" class="r t-rec t-rec_pt_90 t-rec_pb_90" style="padding-top:90px;padding-bottom:90px;background-color:#111111; " data-record-type="144" data-bg-color="#111111" data-animationappear="off">
-            <!-- T134 -->
-            <div class="t134">
-                <div class="t-container">
-                    <div class="t-col t-col_10 t-prefix_1"> <img src="{% static 'img/Legal-Hackers-Logo-2.png' %}" class="t134__img" imgfield="img">
-                        <div class="t134__descr" field="descr" style="color:#ffffff;">
-                            <br>© All Right Reserved.
-                            <br><a href="mailto: splegalhackers@gmail.com">splegalhackers@gmail.com</a>
-                            <br>
-                        </div>
+    </div>
+    <div id="rec88969599" class="r t-rec t-rec_pt_90 t-rec_pb_90" style="padding-top:90px;padding-bottom:90px;background-color:#111111; " data-record-type="144" data-bg-color="#111111" data-animationappear="off">
+        <!-- T134 -->
+        <div class="t134">
+            <div class="t-container">
+                <div class="t-col t-col_10 t-prefix_1"> <img src="{% static 'img/Legal-Hackers-Logo-2.png' %}" class="t134__img" imgfield="img">
+                    <div class="t134__descr" field="descr" style="color:#ffffff;">
+                        <br>© All Right Reserved.
+                        <br><a href="mailto: splegalhackers@gmail.com">splegalhackers@gmail.com</a>
+                        <br>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
+</div>
+<!--/allrecords-->
+<!-- Tilda copyright. Don't remove this line -->
+<div class="t-tildalabel t-tildalabel-free" style="display:none;" id="tildacopy" data-tilda-sign="1134703#4905436">
+    <div class="t-tildalabel-free__main">
+        <a href="https://tilda.cc/?upm=1134703" target="_blank" style="padding-bottom:12px; display: block;">
+            <img style="width:40px;" src="https://static.tildacdn.com/img/tildacopy.png">
+        </a>
+        <div style="padding-bottom: 15px;">This site was made on <a href="https://tilda.cc/?upm=1134703" target="_blank" style="text-decoration: none; color:inherit;">Tilda — a website builder</a> that helps to&nbsp;create a&nbsp;website without any code</div>
+        <a href="https://tilda.cc/registration/" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 13px; border-radius: 50px; background-color: #fff; color:#000; text-decoration: none;">Create a website</a>
     </div>
-    <!--/allrecords-->
-    <!-- Tilda copyright. Don't remove this line -->
-    <div class="t-tildalabel t-tildalabel-free" style="display:none;" id="tildacopy" data-tilda-sign="1134703#4905436">
-        <div class="t-tildalabel-free__main">
-            <a href="https://tilda.cc/?upm=1134703" target="_blank" style="padding-bottom:12px; display: block;">
-                <img style="width:40px;" src="https://static.tildacdn.com/img/tildacopy.png">
-            </a>
-            <div style="padding-bottom: 15px;">This site was made on <a href="https://tilda.cc/?upm=1134703" target="_blank" style="text-decoration: none; color:inherit;">Tilda — a website builder</a> that helps to&nbsp;create a&nbsp;website without any code</div>
-            <a href="https://tilda.cc/registration/" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 13px; border-radius: 50px; background-color: #fff; color:#000; text-decoration: none;">Create a website</a>
-        </div>
-        <div class="t-tildalabel-free__links-wr"><a class="t-tildalabel-free__txt-link" href="http://help.tilda.ws/white-label" target="_blank">How to remove this block?</a>
-            <a class="t-tildalabel-free__txt-link" href="https://tilda.cc/?upm=1134703" target="_blank">About platform</a>
-            <a class="t-tildalabel-free__txt-link" href="https://tilda.cc/abuse/" target="_blank">Submit a complaint</a>
-        </div>
+    <div class="t-tildalabel-free__links-wr"><a class="t-tildalabel-free__txt-link" href="http://help.tilda.ws/white-label" target="_blank">How to remove this block?</a>
+        <a class="t-tildalabel-free__txt-link" href="https://tilda.cc/?upm=1134703" target="_blank">About platform</a>
+        <a class="t-tildalabel-free__txt-link" href="https://tilda.cc/abuse/" target="_blank">Submit a complaint</a>
     </div>
-    <!-- Stat -->
-    <script type="text/javascript">
-        if (!window.mainTracker) {
-            window.mainTracker = 'tilda';
-        }(function(d, w, k, o, g) {
-            var n = d.getElementsByTagName(o)[0],
-                s = d.createElement(o),
-                f = function() {
-                    n.parentNode.insertBefore(s, n);
-                };
-            s.type = "text/javascript";
-            s.async = true;
-            s.key = k;
-            s.id = "tildastatscript";
-            s.src = g;
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else {
-                f();
-            }
-        })(document, window, '664f88af58da3c84df5a4b9f71688cdb', 'script', 'https://stat.tildacdn.com/js/tildastat-0.2.min.js');
-    </script>
+</div>
+<!-- Stat -->
+<script type="text/javascript">
+    if (!window.mainTracker) {
+        window.mainTracker = 'tilda';
+    }(function(d, w, k, o, g) {
+        var n = d.getElementsByTagName(o)[0],
+            s = d.createElement(o),
+            f = function() {
+                n.parentNode.insertBefore(s, n);
+            };
+        s.type = "text/javascript";
+        s.async = true;
+        s.key = k;
+        s.id = "tildastatscript";
+        s.src = g;
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, '664f88af58da3c84df5a4b9f71688cdb', 'script', 'https://stat.tildacdn.com/js/tildastat-0.2.min.js');
+</script>
 </body>
 
 </html>
