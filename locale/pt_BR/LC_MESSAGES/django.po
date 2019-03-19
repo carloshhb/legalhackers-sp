@@ -329,6 +329,10 @@ msgid " 9:00 AM - Breakfast and Coffee"
 msgstr "9:00 - Café de recepção"
 
 #: .\templates\home.html:510
+msgid "Click the button below to subscribe"
+msgstr "Clique no botão abaixo para se inscrever"
+
+#: .\templates\home.html:510
 msgid " 9:45 AM - Welcoming Remarks, with Legal Hackers Team"
 msgstr "9:45 - Considerações iniciais, com o time do Legal Hackers"
 
@@ -374,6 +378,14 @@ msgid ""
 "<strong>Interested on our Open Innovation Day? <br>Stay tuned and we'll "
 "anounce shortly how to make your subscription ...</strong><strong></strong>"
 msgstr "<strong>Interessado no Open Innovation Day? <br>Fiquem atentos que iremos divulgar como fazer sua inscrição...</strong><strong></strong>"
+
+msgid ""
+"<strong>Interested on our Open Innovation Day? <br>Click the button below to subscribe</strong><strong></strong>"
+msgstr ""
+"<strong>Interessado no nosso Open Innovation Day? <br>Clique no botão abaixo para se inscrever</strong><strong></strong>"
+
+msgid "Subscribe"
+msgstr "Inscreva-se"
 
 #: .\templates\home.html:550
 msgid "Wait for more details on registration"

@@ -377,16 +377,24 @@
                                 <li>{% trans "9:00 AM - Breakfast and Coffee"%} </li>
                                 <li>{% trans "9:45 AM - Welcoming Remarks, with Legal Hackers Team"%} </li>
                                 <li>{% trans "10:00 AM - Morning Keynote: The Ethos of Legal Hackers"%} </li>
-                                <li>{% trans "10:30 AM - Morning Lightning Talks"%} </li>
+                                <li>{% trans "10:30 AM - Morning Lightning Talks: Chapter's Presentations"%} </li>
                                 <li>{% trans "11:30 AM - How to build your community"%} </li>
                                 <li>{% trans "12:30 PM - Lunch"%} </li>
-                                <li>{% trans "2:00 PM - Afternoon Keynote"%} </li>
-                                <li>{% trans "2:30 PM - Early afternoon workshops"%} </li>
-                                <li>{% trans "3:30 PM - Coffee-break"%} </li>
-                                <li>{% trans "3:45 PM - Closing Keynote"%} </li>
-                                <li>{% trans "4:30 PM - End of Day Photo"%}</li>
+                                <li>{% trans "2:00 PM - Afternoon Keynotes and discussion (simultaneously)"%}
+                                    <ul>
+                                        <li>{% trans 'Law Firms of the Future' %}</li>
+                                        <li>{% trans 'Womam in Legal Tech' %}</li>
+                                    </ul>
+                                </li>
+                                <li>{% trans "3:00 PM - Early afternoon workshops: Engineering Law"%} </li>
+                                <li>{% trans "4:00 PM - Coffee-break"%} </li>
+                                <li>{% trans "4:15 PM - Closing Fishbowl*: LegalTechs and Projects"%} </li>
+                                <li>{% trans "5:00 PM - End of Day Photo"%}</li>
                                 <li>{% trans "7:00 PM - Organizers &amp; Speakers Dinner (Location TBA)"%} </li>
                             </ul>
+                            <p style="font-size:10pt;">*Fishbowl: is a group discussion format that promotes dialogue and exchange of
+                                experience among the participants of the session and allows everyone to have
+                                their chances of expressing opinions and excluding their points of view.</p>
                         </div>
                     </div>
                 </div>
@@ -411,14 +419,24 @@
                                 <li>{% trans "10:30 AM - Legal Education in the Era of Legal Tech"%} </li>
                                 <li>{% trans "11:30 AM - Legal Practice in the Era of Legal Tech."%} </li>
                                 <li>{% trans "12:30 PM - Lunch"%} </li>
-                                <li>{% trans "2:00 PM - Early afternoon Workshop"%}</li>
-                                <li>{% trans "2:45 PM - Legal A.I."%}</li>
-                                <li>{% trans "3:30 PM - Coffee-break"%} </li>
-                                <li>{% trans "3:45 PM - Blockchain Law &amp; Policy"%} </li>
-                                <li>{% trans "4:45 PM - Legal Design workshop and Ideathon"%} </li>
+                                <li>{% trans "2:00 PM - Legal A.I."%}</li>
+                                <li>{% trans "2:45 PM - Afternoon Workshop (simutaneously)"%}
+                                    <ul>
+                                        <li>{% trans "Data Privacy & Security" %}</li>
+                                        <li>{% trans "Open Government and Civic Techs" %}</li>
+                                    </ul>
+                                </li>
+                                <li>{% trans "3:45 PM - Coffee-break"%} </li>
+                                <li>{% trans "4:00 PM - Blockchain Law &amp; Policy"%} </li>
+                                <li>{% trans "4:45 PM - Workshop and Ideathon (simutaneously)"%}
+                                    <ul>
+                                        <li>{% trans "Coding for Lawyers" %}</li>
+                                        <li>{% trans "Legal Design" %}</li>
+                                    </ul>
+                                </li>
                                 <li>{% trans "5:45 PM - Coffee-break"%}</li>
                                 <li>{% trans "6:00 PM - Ideathon Elevator Pitch and Discussion"%}</li>
-                                <li>{% trans "7:00 PM - Happy Hour (Location TBA)"%} </li>
+                                <li>{% trans "7:00 PM - Happy Hour (TBC)"%} </li>
                             </ul>
                         </div>
                     </div>
@@ -445,15 +463,15 @@
                         <div class="t182">
                             <div data-hook-content="covercontent">
                                 <div class="t182__wrapper">
-                                    <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr"><strong><span data-redactor-tag="span" style="color: rgb(255, 255, 255);">{% trans "Legal Hackers chapter organizer</span>? <br><strong>Stay tuned and we'll anounce shortly how to make your subscription ...</strong></strong>"%}
+                                    <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr"><strong><span data-redactor-tag="span" style="color: rgb(255, 255, 255);">{% trans "Legal Hackers chapter organizer</span>? <br><strong>If you did not receive the registration form, contact us on <a href='mailto: splegalhackers@gmail.com'>splegalhackers@gmail.com</a>"%}
                                         <br>
                                     </div>
                                     <div class="t182__buttons">
-                                        <a href="" target="" class="t-btn " style="color:#ffffff;background-color:#f50a0a;">
+                                        <a href="mailto: splegalhackers@gmail.com" target="" class="t-btn " style="color:#ffffff;background-color:#f50a0a;">
                                             <table style="width:100%; height:100%;">
                                                 <tbody>
                                                 <tr>
-                                                    <td>{% trans "Wait for the registration form"%}</td>
+                                                    <td>{% trans "Contact us"%}</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -488,6 +506,9 @@
                 <div class="t-col t-col_12">
                     <div class="t-section__topwrapper t-align_center">
                         <div class="t-section__title t-title t-title_xs" field="btitle">{% trans "Open Innovation Day"%}</div>
+                        <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">
+                            <div style="color:#f80909;" data-customstyle="yes">{% trans "Open to the public" %}</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -507,20 +528,30 @@
                             <br>
                             <br>
                             <ul>
-                                <li>{% trans " 9:00 AM - Breakfast and Coffee"%} </li>
-                                <li>{% trans " 9:45 AM - Welcoming Remarks, with Legal Hackers Team"%} </li>
-                                <li>{% trans " 10:00 AM - Morning Keynote: Reflections on the global Legal Hackers movement"%} </li>
-                                <li>{% trans " 10:30 AM - Legal Education in the Era of Legal Tech"%} </li>
-                                <li>{% trans " 11:30 AM - Legal Practice in the Era of Legal Tech."%} </li>
-                                <li>{% trans " 12:30 PM - Lunch"%} </li>
-                                <li>{% trans " 2:00 PM - Early afternoon Workshop"%}</li>
-                                <li>{% trans " 2:45 PM - Legal A.I."%}</li>
-                                <li>{% trans " 3:30 PM - Coffee-break"%} </li>
-                                <li>{% trans " 3:45 PM - Blockchain Law &amp; Policy"%} </li>
-                                <li>{% trans " 4:45 PM - Legal Design workshop and Ideathon"%} </li>
+                                <li>{% trans "9:00 AM - Breakfast and Coffee"%} </li>
+                                <li>{% trans "9:45 AM - Welcoming Remarks, with Legal Hackers Team"%} </li>
+                                <li>{% trans "10:00 AM - Morning Keynote: Reflections on the global Legal Hackers movement"%} </li>
+                                <li>{% trans "10:30 AM - Legal Education in the Era of Legal Tech"%} </li>
+                                <li>{% trans "11:30 AM - Legal Practice in the Era of Legal Tech."%} </li>
+                                <li>{% trans "12:30 PM - Lunch"%} </li>
+                                <li>{% trans "2:00 PM - Legal A.I."%}</li>
+                                <li>{% trans "2:45 PM - Afternoon Workshop (simutaneously)"%}
+                                    <ul>
+                                        <li>{% trans "Data Privacy & Security" %}</li>
+                                        <li>{% trans "Open Government and Civic Techs" %}</li>
+                                    </ul>
+                                </li>
+                                <li>{% trans "3:45 PM - Coffee-break"%} </li>
+                                <li>{% trans "4:00 PM - Blockchain Law &amp; Policy"%} </li>
+                                <li>{% trans "4:45 PM - Workshop and Ideathon (simutaneously)"%}
+                                    <ul>
+                                        <li>{% trans "Coding for Lawyers" %}</li>
+                                        <li>{% trans "Legal Design" %}</li>
+                                    </ul>
+                                </li>
                                 <li>{% trans "5:45 PM - Coffee-break"%}</li>
                                 <li>{% trans "6:00 PM - Ideathon Elevator Pitch and Discussion"%}</li>
-                                <li>{% trans "7:00 PM - Happy Hour (Location TBA)"%} </li>
+                                <li>{% trans "7:00 PM - Happy Hour (TBC)"%} </li>
                             </ul>
                         </div>
                     </div>
@@ -540,15 +571,15 @@
                             <div data-hook-content="covercontent">
                                 <div class="t182__wrapper">
                                     <div class="t182__title t-title t-title_xl"  field="title">R$ 25,00</div>
-                                    <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr">{% trans "<strong>Interested on our Open Innovation Day? <br>Stay tuned and we'll anounce shortly how to make your subscription ...</strong><strong></strong>"%}
+                                    <div class="t182__descr t-descr t-descr_lg" style="opacity:0.70;" field="descr">{% trans "<strong>Interested on our Open Innovation Day? <br>Click the button below to subscribe</strong><strong></strong>"%}
                                         <br>
                                     </div>
                                     <div class="t182__buttons">
-                                        <a href="" target="" class="t-btn " style="color:#ffffff;background-color:#f50a0a;">
+                                        <a href="https://www.eventbrite.com.br/e/legal-hackers-latam-summit-open-day-tickets-59008052674" target="_blank" class="t-btn " style="color:#ffffff;background-color:#f50a0a;">
                                             <table style="width:100%; height:100%;">
                                                 <tbody>
                                                 <tr>
-                                                    <td>{% trans "Wait for more details on registration"%}</td>
+                                                    <td>{% trans "Subscribe"%}</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
